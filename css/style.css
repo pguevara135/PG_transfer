@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    background-color: #4c3b4d;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-family: 'Miltonian Tattoo', cursive;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', cursive;
+}
+
+.marca {
+    border: 1px solid red;
+}
+
+/*  CONTAINER */
+
+.container {
+    background-color: #ffeedb;
+    margin: 1% auto;
+}
+
+.cabecalho {
+    margin: 2% auto;
+    padding-top: 2%;
+}
+
+.bem-vindo {
+    padding-top: 2%;
+}
+
+.menu {
+    background-color: #a53860;
+    margin-top: 2%;
+}
+
+.menu div {
+    padding: 1%;
+}
+
+.menu a {
+    padding: 1%;
+}
+
+.menu a:hover {
+    color: #afe222;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+main {
+    box-sizing: border-box;
+    color: white;
+}
+
+.corpo {
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(../images/fundo.jpg);
+    background-position: center;
+}
+
+.rodape {
+    background-color: #e3170a;
+    padding: 2%;
+    color: white;
+    font-size: 1.5em;
+}
+
+.rodape h2 {
+    font-size: 2em;
+    padding-bottom: 3%;
+}
+
+.rodape i {
+    margin-right: 2%;
+}
+
+.whatsapp {
+    background-color: greenyellow;
+}
+
+.facebook {
+    color: #4064AD;
+}

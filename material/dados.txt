@@ -1,0 +1,15 @@
+Cores: 
+
+ffeedb	4c3b4d	7d8980	a53860	e3170a
+
+
+Fontes:
+
+        font-family: 'Bevan', cursive;
+        font-family: 'Diplomata', cursive;
+        font-family: 'Fredericka the Great', cursive;
+H2 -->  font-family: 'Lobster', cursive;
+        font-family: 'Miltonian', cursive;
+H1 -->  font-family: 'Miltonian Tattoo', cursive;
+        font-family: 'Rye', cursive;
+        font-family: 'Vast Shadow', cursive;
