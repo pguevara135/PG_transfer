@@ -33,7 +33,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .marca {
-    border: 1px solid red;
+    border: 1px solid black;
 }
 
 /*  CONTAINER */
@@ -81,20 +81,48 @@ main {
     background-position: center;
 }
 
+.services {
+    margin-bottom: 3%;
+}
+
 .rodape {
     background-color: #e3170a;
+    margin-top: 3%;
     padding: 2%;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .rodape h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     padding-bottom: 3%;
 }
 
 .rodape i {
     margin-right: 2%;
+}
+
+.rodape img {
+    margin: 3% 0;
+}
+
+.rodape p {
+    margin: 1%;
+}
+
+.contato {
+    padding-top: 8%;
+    padding-left: 10%;
+}
+
+hr {
+    border: 3px solid ;
+}
+
+.mobile {
+    font-size: 1.4em;
+    padding: 1%;
+    margin-right: 4%;
 }
 
 .whatsapp {
@@ -104,3 +132,5 @@ main {
 .facebook {
     color: #4064AD;
 }
+
+/* https://www.youtube.com/watch?v=pVEDZAueUxE&list=PLXik_5Br-zO9xe9pqMROAjaMHiSzwsD0o&index=17 */
