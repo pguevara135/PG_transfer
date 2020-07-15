@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    box-sizing: border-box;
     font-size: 100%;
 }
 
@@ -32,8 +31,12 @@ h2, h3, h4, h5, h6 {
     font-family: 'Lobster', cursive;
 }
 
-.marca {
+.borda {
     border: 1px solid black;
+}
+
+.cores {
+    color: black;
 }
 
 /*  CONTAINER */
@@ -120,7 +123,6 @@ hr {
 }
 
 .mobile {
-    font-size: 1.4em;
     padding: 1%;
     margin-right: 4%;
 }
@@ -132,5 +134,3 @@ hr {
 .facebook {
     color: #4064AD;
 }
-
-/* https://www.youtube.com/watch?v=pVEDZAueUxE&list=PLXik_5Br-zO9xe9pqMROAjaMHiSzwsD0o&index=17 */
