@@ -7,3 +7,19 @@
 .services {
     margin-bottom: 3%;
 }
+
+media-breakpoint-up(sm) { 576px }
+@include media-breakpoint-up(md) { 768px}
+@include media-breakpoint-up(lg) { 992px }
+@include media-breakpoint-up(xl) 1200px
+
+(min-width: 576px) { ... }
+
+// Dispositivos médios (tablets com 768px ou mais)
+@media (min-width: 768px) { ... }
+
+// Dispositivos large (desktops com 992px ou mais)
+@media (min-width: 992px) { ... }
+
+// Dispositivos extra large (desktops grandes com 1200px ou mais)
+@media (min-width: 1200px) { ... }

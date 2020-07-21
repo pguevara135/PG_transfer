@@ -51,8 +51,41 @@ p {
 
 .menu {
     background-color: #a53860;
+    color: white;
+}
+
+.menu p {
+    font-size: .9em;
 }
 
 .corpo {
     color: white;
+}
+
+/* Rodape */
+
+.rodape {
+    background-color: #e3170a;
+    color: white;
+}
+
+.rodape i {
+    margin-right: 2%;
+    font-size: 1.2em;
+}
+
+.rodape span {
+    font-size: .8em;
+}
+
+.twitter:hover {
+    color: #00aced;
+}
+
+.facebook:hover {
+    color: #0077e2;
+}
+
+.instagram:hover {
+    color: purple;
 }
