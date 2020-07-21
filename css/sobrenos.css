@@ -16,3 +16,12 @@ h1 {
 h2, h3, h4, h5, h6 {
     font-family: 'Lobster', cursive;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    background-color:  #4c3b4d;
+}

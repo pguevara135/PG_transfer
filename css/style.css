@@ -1,8 +1,9 @@
 * {
-    /* margin: 0;
-    padding: 0; */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Vast Shadow', cursive;
     font-size: 100%;
+    box-sizing: border-box;
 }
 
 body {
@@ -31,98 +32,27 @@ h2, h3, h4, h5, h6 {
     font-family: 'Lobster', cursive;
 }
 
+p {
+    text-indent: 40px;
+}
+
 .borda {
-    border: 1px solid black;
+    border: 3px solid black;
 }
 
-.cores {
-    color: black;
+.borda-red {
+    border: 3px solid red;
 }
-
 /*  CONTAINER */
 
-.container {
+.fundo {
     background-color: #ffeedb;
-    margin: 1% auto;
-    padding: 0;
-}
-
-.cabecalho {
-    margin: 2% auto;
-    padding-top: 2%;
-}
-
-.bem-vindo {
-    padding-top: 2%;
 }
 
 .menu {
     background-color: #a53860;
-    margin-top: 2%;
 }
 
-.menu div {
-    padding: 1%;
-}
-
-.menu a {
-    padding: 1%;
-}
-
-.menu a:hover {
-    color: #afe222;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-main {
-    box-sizing: border-box;
+.corpo {
     color: white;
-}
-
-.rodape {
-    background-color: #e3170a;
-    margin: 3% 0 0 0;
-    padding: 2%;
-    color: white;
-    
-}
-
-.rodape h2 {
-    font-size: 1.5em;
-    padding-bottom: 3%;
-}
-
-.rodape i {
-    margin-right: 2%;
-}
-
-.rodape img {
-    margin: 3% 0;
-}
-
-.rodape p {
-    margin: 1%;
-}
-
-.contato {
-    padding-top: 8%;
-    padding-left: 10%;
-}
-
-hr {
-    border: 3px solid ;
-}
-
-.mobile {
-    padding: 1%;
-    margin-right: 4%;
-}
-
-.whatsapp {
-    background-color: greenyellow;
-}
-
-.facebook {
-    color: #4064AD;
 }

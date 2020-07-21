@@ -12,81 +12,96 @@
     <link href="https://fonts.googleapis.com/css2?family=Bevan&family=Diplomata&family=Fredericka+the+Great&family=Lobster&family=Miltonian&family=Miltonian+Tattoo&family=Roboto&family=Rye&family=Vast+Shadow&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="container fundo">
 
-        <!-- Cabecalho -->
+<!-- Cabecalho -->
         
-        <header class="cabecalho">
+        <header class="row">
+        
+<!-- Logo -->
 
-        <!-- Logo -->
             
-            <div class="row">
-                <div class="col-sm-4">
-                    <h1 class="">
-                        <a class="" href="index.html"><img src="images/logo2.png" alt=""></a>
+                <div class="col-sm-4 mt-2">
+                    <h1>
+                        <a href="index.html"><img src="images/logo2.png" alt="Logotipo da empresa"></a>
                     </h1>
                 </div>
-        
-                <div class="col-sm-8 text-center bem-vindo">
-                    <h2>Bem vindo a PG Transfer</h2>
+
+                <div class="col-sm-8 text-center mt-2">
+                    <h2>PG - Serviços de motorista</h2>
+                    <p>Serviços de motorista em Campinas</p>
                 </div>
-            </div>
             
-        <!-- Menu -->
+<!-- Menu -->
 
-            <div class="row menu text-center">
-                <div class="col-sm-3 col-sx-12">
-                    <a href="index.html">Home</a>
-                </div>
-                <div class="col-sm-3 col-sx-12">
-                    <a href="servico.html">Serviços</a>
-                </div>
-                <div class="col-sm-3 col-sx-12">
-                    <a href="#">Quem Somos</a>
-                </div>
-                <div class="col-sm-3 col-sx-12">
-                    <a href="#">Contato</a>
-                </div>
+            <div class="col-sm-12 menu">
+                <nav id="" class="navbar">
+                    <!-- <a class="navbar" href="index.html"></a> -->
+                    <ul class="nav nav-tabs col-sm-12 justify-content-center">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servico.html">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobrenos.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    </ul>
+                </nav>
+            
             </div>
-
+                 
         </header>
 
-        <!-- Corpo Principal -->
+<!-- Corpo Principal -->
 
         <main class="row">
 
                 <div class="corpo">
-                    <h2 class="text-center">Aqui entra um titulo</h2 class="text-center">
+                    <h2 class="text-center mb-3 mt-3">Bem vindo</h2 class="text-center">
                     
-                    <div class="col-sm-12 text-justify">
+                    <div class="col-sm-12 text-justify py-3">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae itaque nobis dolorum mollitia repudiandae facere nemo alias, ullam veritatis, vitae totam minima quia facilis, animi praesentium tempore iusto sequi illum.
+                            Motorista com mais de dez anos de experiência em transporte de pessoas
                         </p>
         
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex labore iste debitis repudiandae repellendus dolores ea temporibus provident eius qui repellat, quibusdam tenetur natus veritatis sapiente aliquid autem illum perspiciatis!
+                            Quer viajar com conforto e segurança, viaje com a gente. Motorista altamente capacitado com grande experiência em viagens e transporte de pessoas.
                         </p>
                     </div>
                 </div>
                 
         </main>
 
-        <div class="row services">
-            <div class="col-md-8 offset-md-2 pt-3">
-                <h2 class="text-center">Services</h2>
+        <div class="row services my-2">
+            <div class="col-sm pl-4 pr-4">
+                <h2 class="text-center"></h2>
                 <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis soluta fuga vero blanditiis odio harum placeat cum qui doloribus a, facere amet adipisci, provident nemo cumque excepturi quas aspernatur officia.
+                    Com a PG serviços de motorista, você não precisa pensar no caminho ou no veículo. Você pode otimizar o tempo de viagem, independentemente de viajar a negócios ou lazer. Seja translado do aeroporto para suas reuniões, hotel, restaurante ou diversão.
+
+                    <p>
+                        Motorista com conhecimento na cidade de São Paulo
+                    </p>
+
+                    <p>
+                        Seu motorista particular se ajustará aos sues desejos e o guiará de maneira discreta e encantadora até seu destino.
+                    </p>
                 </p>
             </div>
         </div>
+  
 
         <!--    bloco de 06 informacoes  -->
 
         <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="card card-title text-center">
-                    <h2>Título 1</h2>
-                    <p>
+                <div class="card text-center">
+                    <h2 class="card-title">Título 1</h2>
+                    <p class="card-body">
                         Lorem ipsum dolor sit amet consectetur, adipisicing. Ut architecto explicabo vero mollitia itaque.
                     </p>
                     <button class="btn btn-outline-danger">Mais informações</button>
@@ -96,7 +111,7 @@
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="card card-title text-center">
                     <h3>Título 2</h3>
-                    <p>
+                    <p class="card-body">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione expedita laudantium dolor incidunt, fugit officiis.
                     </p>
                     <button class="btn btn-outline-danger">Mais Informações</button>
@@ -106,7 +121,7 @@
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="card card-title text-center">
                     <h3>Título 3</h3>
-                    <p>
+                    <p class="card-body">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptates ipsa modi aspernatur repellat.
                     </p>
                     <button class="btn btn-outline-danger">Mais Informações</button>
@@ -116,7 +131,7 @@
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="card card-title text-center">
                     <h3>Título 4</h3>
-                    <p>
+                    <p class="card-body">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi labore tempora saepe!
                     </p>
                     <button class="btn btn-outline-danger">Mais informações</button>
@@ -126,8 +141,8 @@
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="card card-title text-center">
                     <h3>Título 5</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis provident corporis libero quod.
+                    <p class="card-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis provident corporis libero quod. dolor sit amet consectetur
                     </p>
                     <button class="btn btn-outline-danger">Mais Informações</button>
                 </div>
@@ -136,7 +151,7 @@
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="card card-title text-center">
                     <h3>Titulo 6</h3>
-                    <p>
+                    <p class="card-body">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sed provident molestiae dicta.
                     </p>
                     <button class="btn btn-outline-danger">Mais informações</button>
@@ -148,16 +163,16 @@
 
         <!-- Rodape -->
 
-        <footer class="rodape">
+        <footer class="rodape row">
             <div class="row">
-                <div class="col-sm-6 col-sx-12">
+                <div class="col-sm-6">
                     <h2><img src="images/logo.png" alt=""></h2>
                     <h3>PG Transfer sua viagem com segurança e conforto</h3>
                 </div>
 
         <!-- Contato -->
 
-                <div class="col-sm-6 col-sx-12">
+                <div class="col-sm-6">
                     <h2 class="contato">Contato</h2>
                     <hr>
                     <p><i class="fa fa-mobile mobile fa-lg" aria-hidden="true"></i>19 9 9903 - 7842</p>
@@ -171,6 +186,9 @@
 
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
      
 </body>
 </html>
