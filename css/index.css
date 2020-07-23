@@ -8,7 +8,7 @@
     margin-bottom: 3%;
 }
 
-media-breakpoint-up(sm) { 576px }
+/* media-breakpoint-up(sm) { 576px }
 @include media-breakpoint-up(md) { 768px}
 @include media-breakpoint-up(lg) { 992px }
 @include media-breakpoint-up(xl) 1200px
@@ -22,4 +22,4 @@ media-breakpoint-up(sm) { 576px }
 @media (min-width: 992px) { ... }
 
 // Dispositivos extra large (desktops grandes com 1200px ou mais)
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { ... } */
