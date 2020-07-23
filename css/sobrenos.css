@@ -1,27 +1,4 @@
-* {
-    font-family: 'Vast Shadow', cursive;
-}
-.borda {
-    border: 1px solid black;
-}
-
-.coluna {
-    border: 2px solid red;
-}
-
-h1 {
-    font-family: 'Miltonian Tattoo', cursive;
-}
-
-h2, h3, h4, h5, h6 {
-    font-family: 'Lobster', cursive;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-.menu {
-    background-color:  #4c3b4d;
+.text h2{
+    width: 100%;
+    padding-left: 10%;
 }

@@ -43,6 +43,12 @@ p {
 .borda-red {
     border: 3px solid red;
 }
+
+.pg {
+    font-weight: bolder;
+    font-size: 1.2em;
+    font-style: italic;
+}
 /*  CONTAINER */
 
 .fundo {
