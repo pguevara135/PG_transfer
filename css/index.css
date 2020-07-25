@@ -8,6 +8,25 @@
     margin-bottom: 3%;
 }
 
+.card {
+    border-radius: 20px;
+}
+
+.card img {
+    border-radius: 20px 20px 0 0 ;
+}
+
+.imgind {
+    width: 100%;
+}
+
+.imgind img {
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
 /* media-breakpoint-up(sm) { 576px }
 @include media-breakpoint-up(md) { 768px}
 @include media-breakpoint-up(lg) { 992px }
